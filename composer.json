@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php-mime-mail-parser/php-mime-mail-parser": "^2.9",
+        "php-imap/php-imap": "^3.0"
+    }
+}
