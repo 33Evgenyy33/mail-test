@@ -2,8 +2,27 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/php-imap/php-imap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/php-mime-mail-parser/php-mime-mail-parser" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/php-imap/php-imap" />
+          <root url="file://$MODULE_DIR$/vendor/php-mime-mail-parser/php-mime-mail-parser" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/php-imap/php-imap" />
+          <root url="file://$MODULE_DIR$/vendor/php-mime-mail-parser/php-mime-mail-parser" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

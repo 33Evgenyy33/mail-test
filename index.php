@@ -27,3 +27,28 @@ echo $order_id;
 echo '<br>';
 //echo "\n\nAttachments:\n";
 $mail->getAttachments();
+
+
+
+//$imap = imap_open("{localhost:995/imap/ssl/novalidate-cert}INBOX", "paytravel@euroroaming.ru", "p44T94^3!");
+//
+//$t1=time();//mark time in
+//$tt=$t1+(3*1);//total time = t1 + n seconds
+//
+//do{
+//	if(isset($t2)) unset($t2);//clean it at every loop cicle
+//	$t2=time();//mark time
+//	if(imap_num_msg($imap)!=0){//if there is any message (in the inbox)
+//
+//		$mc=imap_check($imap);//messages check
+//		var_dump($mc); die;//vardump it to see all the data it is possible to get with imap_check() and them customize it for yourself
+//
+//
+//	}else echo 'No new messagens';
+//
+//	sleep(rand(7,13));//Give Google server a breack
+//	if(!@imap_ping($imap)){//if the connection is not up
+//		//start the imap connection the normal way like you did at first
+//	}
+//
+//}while($tt>$t2);//if the total time was not achivied yet, get back to the beginning of the loop
